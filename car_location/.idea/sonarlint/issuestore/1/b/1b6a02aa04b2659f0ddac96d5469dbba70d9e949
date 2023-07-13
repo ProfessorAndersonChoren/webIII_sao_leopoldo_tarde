@@ -1,16 +1,16 @@
 
+A
+java:S1068"&Remove this unused "id" private field.(Æí¶áşÿÿÿÿ
 H
-java:S1068"&Remove this unused "id" private field.(Æí¶áşÿÿÿÿ8µŠ Ñ1
-O
-java:S1068"-Remove this unused "leaseDate" private field.(ªâõ¿ùÿÿÿÿ8¶Š Ñ1
-P
-java:S1068	".Remove this unused "returnDate" private field.(Ó‡â±ùÿÿÿÿ8¶Š Ñ1
-L
+java:S1068"-Remove this unused "leaseDate" private field.(ªâõ¿ùÿÿÿÿ
+I
+java:S1068	".Remove this unused "returnDate" private field.(Ó‡â±ùÿÿÿÿ
+E
 java:S1068
-"*Remove this unused "client" private field.(§ğšµşÿÿÿÿ8¶Š Ñ1
-N
-java:S1068",Remove this unused "employee" private field.(­¨Ò¨ıÿÿÿÿ8­¥Ñ1
-M
-java:S1068"+Remove this unused "vehicle" private field.(¶øâéúÿÿÿÿ8­¥Ñ1
-J
-java:S1068"(Remove this unused "cost" private field.(Ñ‰ÆØùÿÿÿÿ8À¨·Ñ1
+"*Remove this unused "client" private field.(§ğšµşÿÿÿÿ
+G
+java:S1068",Remove this unused "employee" private field.(­¨Ò¨ıÿÿÿÿ
+F
+java:S1068"+Remove this unused "vehicle" private field.(¶øâéúÿÿÿÿ
+C
+java:S1068"(Remove this unused "cost" private field.(Ñ‰ÆØùÿÿÿÿ

@@ -1,15 +1,14 @@
-package br.com.andersonchoren.car_location.repository;
+package br.com.andersonchoren.repository;
 
-import br.com.andersonchoren.car_location.model.LocationModel;
+import br.com.andersonchoren.model.LocationModel;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-public class LocationRepository implements IRepository<LocationModel> {
+public class LocationRepository implements IRepository<LocationModel>{
     private List<LocationModel> tLocations = new ArrayList<>();
-
     @Override
     public boolean insert(LocationModel object) {
         return tLocations.add(object);

@@ -1,6 +1,6 @@
-package br.com.andersonchoren.car_location.repository;
+package br.com.andersonchoren.repository;
 
-import br.com.andersonchoren.car_location.model.EmployeeModel;
+import br.com.andersonchoren.model.EmployeeModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,6 @@ import java.util.UUID;
 
 public class EmployeeRepository implements IRepository<EmployeeModel>{
     private List<EmployeeModel> tEmployees = new ArrayList<>();
-
     @Override
     public boolean insert(EmployeeModel object) {
         return tEmployees.add(object);
@@ -33,5 +32,9 @@ public class EmployeeRepository implements IRepository<EmployeeModel>{
     @Override
     public void delete(int position) {
         tEmployees.remove(position);
+    }
+
+    public EmployeeModel findByCpf(String cpf){
+        return null;
     }
 }

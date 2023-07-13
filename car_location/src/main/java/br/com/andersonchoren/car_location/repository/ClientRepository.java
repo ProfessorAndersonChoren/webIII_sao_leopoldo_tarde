@@ -9,7 +9,6 @@ import java.util.UUID;
 
 public class ClientRepository implements IRepository<ClientModel>{
     private List<ClientModel> tClients = new ArrayList<>();
-
     @Override
     public boolean insert(ClientModel object) {
         return tClients.add(object);

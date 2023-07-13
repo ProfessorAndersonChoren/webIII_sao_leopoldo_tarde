@@ -7,16 +7,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-public class ClientService implements IService<ClientModel>{
+public class ClientService implements IService<ClientModel> {
     private ClientRepository clientRepository;
-
-    public ClientService(){
-        clientRepository = new ClientRepository();
-    }
-
     @Override
     public boolean insert(ClientModel object) {
-        // TODO Validar os dados
+        // TODO Inserir a validação
         return clientRepository.insert(object);
     }
 
@@ -27,19 +22,19 @@ public class ClientService implements IService<ClientModel>{
 
     @Override
     public Optional<ClientModel> findById(UUID id) {
-        // TODO Validar os dados
+        // TODO Inserir a validação
         return clientRepository.findById(id);
     }
 
     @Override
     public boolean update(ClientModel object) {
-        // TODO Validar os dados
+        // TODO Inserir a validação
         return clientRepository.update(object);
     }
 
     @Override
     public void delete(int position) {
-        // TODO Validar os dados
+        // TODO Inserir a validação
         clientRepository.delete(position);
     }
 }

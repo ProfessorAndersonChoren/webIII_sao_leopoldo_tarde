@@ -1,15 +1,14 @@
-package br.com.andersonchoren.car_location.repository;
+package br.com.andersonchoren.repository;
 
-import br.com.andersonchoren.car_location.model.VehicleModel;
+import br.com.andersonchoren.model.VehicleModel;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-public class VehicleRepository implements IRepository<VehicleModel> {
-    private List<VehicleModel> tVehicles = new ArrayList<>();
-
+public class VehicleRepository implements IRepository<VehicleModel>{
+    private List<VehicleModel> tVehicles =new ArrayList<>();
     @Override
     public boolean insert(VehicleModel object) {
         return tVehicles.add(object);
@@ -33,5 +32,9 @@ public class VehicleRepository implements IRepository<VehicleModel> {
     @Override
     public void delete(int position) {
         tVehicles.remove(position);
+    }
+
+    public VehicleModel findByPlate(String plate){
+        return null;
     }
 }

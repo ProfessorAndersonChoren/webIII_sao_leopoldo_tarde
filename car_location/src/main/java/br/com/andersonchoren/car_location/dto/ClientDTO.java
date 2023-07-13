@@ -1,11 +1,12 @@
-package br.com.andersonchoren.car_location.model;
+package br.com.andersonchoren.car_location.dto;
 
-// Importações
+import br.com.andersonchoren.car_location.model.LocationModel;
+
 import java.time.LocalDate;
-import java.util.UUID;
 import java.util.List;
+import java.util.UUID;
 
-public class ClientModel {
+public class ClientDTO {
     private UUID id;
     private String name;
     private String cpf;
